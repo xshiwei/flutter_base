@@ -23,19 +23,16 @@ class _MyAppState extends State<MyApp> {
     delegate = context.read<RouterDelegateImpl>();
     backButtonDispatcherImpl = BackButtonDispatcherImpl(delegate);
 
-    return ChangeNotifierProvider.value(
-      value: delegate,
-      child: MaterialApp.router(
-        title: 'Navigation App',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
-        routeInformationParser: RouterParserImpl(),
-        routerDelegate: delegate,
-        backButtonDispatcher: backButtonDispatcherImpl,
+    return MaterialApp.router(
+      title: 'Navigation App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      routeInformationParser: RouterParserImpl(),
+      routerDelegate: delegate,
+      backButtonDispatcher: backButtonDispatcherImpl,
     );
   }
 }
