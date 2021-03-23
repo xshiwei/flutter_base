@@ -20,3 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 #### 以下是当前存在的功能
 1. Navigator 2.0
 2. Provider
+3. 屏幕适配、包含平板适配扩展方法
+4. 动画Simple_animation
+5. 辅助插件supercharged、tuple
