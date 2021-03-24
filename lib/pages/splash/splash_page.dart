@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_base/router/router_config.dart';
-import 'package:flutter_base/router/router_delegate.dart';
+import 'package:flutter_base/common/router/router_config.dart';
+import 'package:flutter_base/common/router/router_delegate.dart';
 import 'package:provider/provider.dart';
 
 class SplashPage extends StatefulWidget {

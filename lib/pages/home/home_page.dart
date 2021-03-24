@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base/common/router/router_config.dart';
+import 'package:flutter_base/common/router/router_delegate.dart';
+import 'package:flutter_base/common/router/router_result_model.dart';
 import 'package:flutter_base/pages/setting/setting_page.dart';
-import 'package:flutter_base/router/router_config.dart';
-import 'package:flutter_base/router/router_delegate.dart';
-import 'package:flutter_base/router/router_result_model.dart';
-import 'package:flutter_base/utils/log_utils.dart';
+import 'package:flutter_base/common/utils/log_utils.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {

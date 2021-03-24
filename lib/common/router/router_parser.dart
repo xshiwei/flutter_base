@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_base/router/router_config.dart';
-import 'package:flutter_base/utils/log_utils.dart';
+import 'package:flutter_base/common/router/router_config.dart';
+import 'package:flutter_base/common/utils/log_utils.dart';
 
 class RouterParserImpl extends RouteInformationParser<PageConfiguration> {
   @override

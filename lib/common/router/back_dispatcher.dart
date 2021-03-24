@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_base/router/router_delegate.dart';
-import 'package:flutter_base/utils/log_utils.dart';
+import 'package:flutter_base/common/router/router_delegate.dart';
+import 'package:flutter_base/common/utils/log_utils.dart';
 
 class BackButtonDispatcherImpl extends RootBackButtonDispatcher {
   final RouterDelegateImpl _routerDelegate;

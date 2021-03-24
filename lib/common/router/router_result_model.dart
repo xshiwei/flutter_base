@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/utils/log_utils.dart';
+import 'package:flutter_base/common/utils/log_utils.dart';
 
 class RouterResultModel with ChangeNotifier {
   HomeResult? _homeResult;

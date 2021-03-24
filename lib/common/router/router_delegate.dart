@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_base/common/router/router_config.dart';
+import 'package:flutter_base/common/router/router_result_model.dart';
 import 'package:flutter_base/pages/home/home_page.dart';
 import 'package:flutter_base/pages/splash/splash_page.dart';
-import 'package:flutter_base/router/router_config.dart';
-import 'package:flutter_base/router/router_result_model.dart';
 
 class RouterDelegateImpl extends RouterDelegate<PageConfiguration>
     with ChangeNotifier, PopNavigatorRouterDelegateMixin<PageConfiguration> {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base/config/constans.dart';
-import 'package:flutter_base/config/provider_config.dart';
-import 'package:flutter_base/router/back_dispatcher.dart';
-import 'package:flutter_base/router/router_delegate.dart';
-import 'package:flutter_base/router/router_parser.dart';
+import 'package:flutter_base/common/config/constans.dart';
+import 'package:flutter_base/common/config/provider_config.dart';
+import 'package:flutter_base/common/router/back_dispatcher.dart';
+import 'package:flutter_base/common/router/router_delegate.dart';
+import 'package:flutter_base/common/router/router_parser.dart';
 import 'package:flutter_device_type/flutter_device_type.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
